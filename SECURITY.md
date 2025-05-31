@@ -136,7 +136,6 @@ _Max: 30 SOL tokens. Min: 10 SOL tokens_
 
 ### Out of Scope:
 The following components are out of scope for the bounty program
-* Anyone under a grant or the financial arrangement with Solana Foundation to develop or audit related tools is not eligibile
 * Any encrypted credentials, auth tokens, etc. checked into the repo
 * Bugs in dependencies. Please take them upstream!
 * Attacks that require social engineering
@@ -147,6 +146,7 @@ to, any and all web properties not explicitly listed on this page)
 [SPL security policy](https://github.com/solana-labs/solana-program-library/security/policy).
 
 ### Eligibility:
+* Anyone under a grant or the financial arrangement with Solana Foundation to develop or audit related tools is not eligibile
 * Submissions _MUST_ include an exploit proof-of-concept to be considered eligible
 * The participant submitting the bug report shall follow the process outlined within this document
 * Valid exploits can be eligible even if they are not successfully executed on a public cluster
