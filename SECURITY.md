@@ -136,14 +136,14 @@ _Max: 30 SOL tokens. Min: 10 SOL tokens_
 
 ### Out of Scope:
 The following components are out of scope for the bounty program
-* Metrics: `/metrics` in the <repo_name> as well as https://metrics.solana.com
+* Anyone under a grant or the financial arrangement with Solana Foundation to develop or audit related tools is not eligibile
 * Any encrypted credentials, auth tokens, etc. checked into the repo
 * Bugs in dependencies. Please take them upstream!
 * Attacks that require social engineering
 * Any undeveloped automated tooling (scanners, etc) results. (OK with developed PoC)
 * Any asset whose source code does not exist in this repository (including, but not limited
 to, any and all web properties not explicitly listed on this page)
-* Programs in the Solana Program Library, such as SPL Token. Please refer to the
+* <update_for_solana_program> Programs in the Solana Program Library, such as SPL Token. Please refer to the
 [SPL security policy](https://github.com/solana-labs/solana-program-library/security/policy).
 
 ### Eligibility:
