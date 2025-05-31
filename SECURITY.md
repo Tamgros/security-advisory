@@ -5,11 +5,11 @@
 2. [Incident Response Process](#process)
 
 <a name="reporting"></a>
-## Reporting security problems in the Agave Validator
+## Reporting security problems in the <project_name>
 
 **DO NOT CREATE A GITHUB ISSUE** to report a security problem.
 
-Instead please use this [Report a Vulnerability](https://github.com/####/agave/security/advisories/new) link.
+Instead please use this [Report a Vulnerability](<advisory_link>) link.
 Provide a helpful title, detailed description of the vulnerability and an exploit
 proof-of-concept. Speculative submissions without proof-of-concept will be closed
 with no further consideration.
@@ -72,7 +72,7 @@ Once the fix has been deployed to the security group validators, the patches fro
 If this issue is [eligible](#eligibility) for a bounty, prefix the title of the
 security advisory with one of the following, depending on the severity:
 - [Bounty Category: Critical: Loss of Funds]
-- [Bounty Category: Critical: Consensus / Safety Violations]
+- [Bounty Category: Critical: Safety Violations]
 - [Bounty Category: Critical: Liveness / Loss of Availability]
 - [Bounty Category: Critical: DoS Attacks]
 - [Bounty Category: Supply Chain Attacks]
@@ -100,43 +100,43 @@ _Note: Payments will continue to be paid out in 12-month locked SOL._
 
 
 #### Loss of Funds:
-_Max: 25,000 SOL tokens. Min: 6,250 SOL tokens_
+_Max: 12,500 SOL tokens. Min: 3000 SOL tokens_
 
 * Theft of funds without users signature from any account
 * Theft of funds without users interaction in system, stake, vote programs
 * Theft of funds that requires users signature - creating a vote program that drains the delegated stakes.
 
-#### Consensus/Safety Violations:
-_Max: 12,500 SOL tokens. Min: 3,125 SOL tokens_
+#### Safety Violations:
+_Max: 6000 SOL tokens. Min: 1500 SOL tokens_
 
-* Consensus safety violation
-* Tricking a validator to accept an optimistic confirmation or rooted slot without a double vote, etc.
+* Safety violation
+* Unsafe publishing of sensitive material like private keys
 
 #### Liveness / Loss of Availability:
-_Max: 5,000 SOL tokens. Min: 1,250 SOL tokens_
+_Max: 2500 SOL tokens. Min: 300 SOL tokens_
 
-* Whereby consensus halts and requires human intervention
-* Eclipse attacks,
-* Remote attacks that partition the network,
+* Critical components fail and require a human intervention
+* Remote attacks that partition the network
 
 #### DoS Attacks:
-_Max: 1,250 SOL tokens. Min: 315 SOL tokens_
+_Max: 600 SOL tokens. Min: 150 SOL tokens_
 
 * Remote resource exhaustion via Non-RPC protocols
+* Resource missuse or other malformed calls that consume available resources
 
 #### Supply Chain Attacks:
-_Max: 1,250 SOL tokens. Min: 315 SOL tokens_
+_Max: 600 SOL tokens. Min: 150 SOL tokens_
 
-* Non-social attacks against source code change management, automated testing, release build, release publication and release hosting infrastructure of the monorepo.
+* Non-social attacks against source code change management, automated testing, release build, release publication and release hosting infrastructure of the <repo_name>.
 
-#### RPC DoS/Crashes:
-_Max: 65 SOL tokens. Min: 20 SOL tokens_
+#### UX DOS or crashes:
+_Max: 30 SOL tokens. Min: 10 SOL tokens_
 
-* RPC attacks
+* Attacks to devex infrastructure
 
 ### Out of Scope:
 The following components are out of scope for the bounty program
-* Metrics: `/metrics` in the monorepo as well as https://metrics.solana.com
+* Metrics: `/metrics` in the <repo_name> as well as https://metrics.solana.com
 * Any encrypted credentials, auth tokens, etc. checked into the repo
 * Bugs in dependencies. Please take them upstream!
 * Attacks that require social engineering
