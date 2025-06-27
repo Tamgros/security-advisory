@@ -9,7 +9,7 @@
 
 **DO NOT CREATE A GITHUB ISSUE** to report a security problem.
 
-Instead please use this [Report a Vulnerability](<advisory_link>) link.
+Instead please use this [Report a Vulnerability](<TODO advisory_link>) link.
 Provide a helpful title, detailed description of the vulnerability and an exploit
 proof-of-concept. Speculative submissions without proof-of-concept will be closed
 with no further consideration.
@@ -22,13 +22,13 @@ Expect a response as fast as possible in the advisory, typically within 72 hours
 --
 
 If you do not receive a response in the advisory, send an email to
-security@solana.org with the full URL of the advisory you have created.  DO NOT
+disclosures@solana.org with the full URL of the advisory you have created.  DO NOT
 include attachments or provide detail sufficient for exploitation regarding the
 security issue in this email. **Only provide such details in the advisory**.
 
 
 <!-- TODO: what email do we want? -->
-If you do not receive a response from security@solana.org please followup with
+If you do not receive a response from disclosures@solana.org please followup with
 the team on another platform like @solana_devs on X/twitter
 
 <a name="process"></a>
